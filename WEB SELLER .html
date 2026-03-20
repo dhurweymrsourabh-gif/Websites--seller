@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Seller</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0f2c;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    font-size: 30px;
+    background: linear-gradient(90deg, #00c6ff, #ff00cc);
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background: #11163a;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+button {
+    background: linear-gradient(90deg, #00c6ff, #ff00cc);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+</style>
+
+</head>
+<body>
+
+<header>🌐 Web Seller</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Gaming Website</h3>
+        <p>Price: $99</p>
+        <button onclick="buyNow()">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Price: $49</p>
+        <button onclick="buyNow()">Buy Now</button>
+    </div>
+
+</div>
+
+<script>
+function buyNow() {
+    alert("Payment ke liye UPI ID par pay kare:\n\nexample@upi\n\nPayment ke baad screenshot WhatsApp kare.");
+}
+</script>
+
+</body>
+</html>
